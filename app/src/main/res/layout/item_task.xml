@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/lavender_border">
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/previewBtn"
+            android:background="@drawable/lavender_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OPEN"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/downloadBtn"
+            android:background="@drawable/lavender_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:textSize="14sp"
+            android:layout_marginStart="15dp"/>
+    </LinearLayout>
+</LinearLayout>

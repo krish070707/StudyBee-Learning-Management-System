@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/backButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:background="@drawable/lavender_border"
+            android:text="back"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/classEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Class (e.g.- 9,10)" />
+
+        <EditText
+            android:id="@+id/subjectEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Subject (e.g.- Maths, Physics, Chemistry, Biology, English, Hindi, SST, Computer)" />
+
+        <EditText
+            android:id="@+id/questionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Question" />
+
+        <EditText
+            android:id="@+id/optionAEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option A" />
+
+        <EditText
+            android:id="@+id/optionBEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option B" />
+
+        <EditText
+            android:id="@+id/optionCEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option C" />
+
+        <EditText
+            android:id="@+id/optionDEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option D" />
+
+        <EditText
+            android:id="@+id/answerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correct Answer (A/B/C/D)" />
+
+        <Button
+            android:id="@+id/uploadMcqButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload MCQ"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

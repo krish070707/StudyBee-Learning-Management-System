@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Studybee</string>
+    <string name="select">Select Class</string>
+    <string name="enter_class_title">Enter Class</string>
+</resources>

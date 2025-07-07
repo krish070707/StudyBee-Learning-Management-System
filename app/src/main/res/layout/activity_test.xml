@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <RadioGroup
+            android:id="@+id/optionsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/optionA"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:text="Option A" />
+
+            <RadioButton
+                android:id="@+id/optionB"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:text="Option B" />
+
+            <RadioButton
+                android:id="@+id/optionC"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:text="Option C" />
+
+            <RadioButton
+                android:id="@+id/optionD"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:text="Option D" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/prevButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:visibility="gone"
+                android:layout_marginEnd="16dp"/>
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
