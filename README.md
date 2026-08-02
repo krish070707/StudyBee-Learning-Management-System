@@ -30,6 +30,16 @@ iv)   Delivered an intuitive, responsive experience for educators and students.
 - Firebase Realtime Database
 - Firebase Storage
 
+## Firebase Setup
+
+This repository does not include `google-services.json`.
+
+To run the project:
+1. Create a Firebase project.
+2. Register the Android app.
+3. Download `google-services.json`.
+4. Place it in the `app/` directory.
+
 ## Screenshots
 
 Login page
