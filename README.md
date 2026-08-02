@@ -1,6 +1,10 @@
 # 📚 StudyBee
 
-StudyBee is an Android Learning Management System developed in Java using Firebase.
+StudyBee is an Learning Management System (LMS) Mobile Application.
+i)    Developed using Java and Android Studio.
+ii)   Integrated Firebase for real-time data and secure file storage.
+iii)  Enabled assignment uploads, student assessments, and instructor dashboards.
+iv)   Delivered an intuitive, responsive experience for educators and students.
 
 ## Features
 
