@@ -53,7 +53,7 @@ Preview page
 
 1. Clone the repository
 2. Open in Android Studio
-3. Add your Firebase configuration
+3. Add your own Firebase configuration(i have added mine as a reference)
 4. Sync Gradle
 5. Run the app
 
