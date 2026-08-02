@@ -24,10 +24,12 @@ StudyBee is an Android Learning Management System developed in Java using Fireba
 
 ## Screenshots
 
-Login page
+Login page<br>
+
 <img width="343" height="734" alt="image" src="https://github.com/user-attachments/assets/3ecdc8dc-8012-43ae-9c52-c53b2c730756" />
 
 Main page
+
 <img width="330" height="715" alt="image" src="https://github.com/user-attachments/assets/9a309bab-a9ed-4604-bb4a-8c77310e712f" />
 
 Subject page
