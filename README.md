@@ -40,6 +40,14 @@ To run the project:
 3. Download `google-services.json`.
 4. Place it in the `app/` directory.
 
+## Installation
+
+1. Clone the repository
+2. Open in Android Studio
+3. Add your own Firebase configuration
+4. Sync Gradle
+5. Run the app
+
 ## Screenshots
 
 Login page
@@ -58,14 +66,6 @@ Preview page
 
 <img width="347" height="741" alt="image" src="https://github.com/user-attachments/assets/97c28888-6b84-477f-9101-c715611a96c6" />
 
-
-## Installation
-
-1. Clone the repository
-2. Open in Android Studio
-3. Add your own Firebase configuration(i have added mine as a reference)
-4. Sync Gradle
-5. Run the app
 
 ## Author
 
